@@ -13,6 +13,7 @@
 	brD = branch -D
 	merged = branch --merged
 	st = status -sb
+	gs =status
 	aa = add -A .
 	cm = commit
 	aacm = !git add -A . && git commit

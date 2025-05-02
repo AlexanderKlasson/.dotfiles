@@ -16,18 +16,13 @@ brew install \
         pipx \
         node \
         yarn \
-        keychain \
         bat \
-        nushell \
         jandedobbeleer/oh-my-posh/oh-my-posh
 
 # Install Python dependencies in Brew
-brew install openssl readline sqlite3 xz zlib tcl-tk
+brew install openssl
 # Set the compiler to Brew gcc, pyenv installs will fail without this.
 export CC=/home/linuxbrew/.linuxbrew/bin/gcc-13
-
-# Install dependencies for image processing (for mkdocs material)
-brew install cairo freetype libffi libjpeg libpng zlib
 
 # Adopt allows stow if .bashrc already exists. We just restore
 # back to what we had with Git.
@@ -35,7 +30,6 @@ stow --adopt bash
 git restore .
 stow vim
 stow git
-stow nu
 
 brew upgrade pyenv
 ./install_python_versions.sh 2
@@ -51,12 +45,7 @@ pipx install cookiecutter
 pipx install pre-commit
 pipx install mypy
 pipx install poetry
-pipx install mkdocs
-pipx inject mkdocs mkdocs-material[imaging]
-pipx inject mkdocs mkdocstrings[python]
-pipx inject mkdocs mkdocs-glightbox
 pipx install jupyter
-pipx install asciinema
 
 # Generate SSH key for GitHub
 ssh-keygen -t ed25519
