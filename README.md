@@ -12,7 +12,7 @@ usermod -aG sudo alex
 su - alex
 ```
 
-Set the user as default by editing the /etc/wsl.conf file
+Set the user as default by editing the /etc/wsl.conf file and/or running ubuntu config --default-user alex in powershell
 
 If `git` is needed:
 
