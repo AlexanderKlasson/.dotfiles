@@ -40,6 +40,12 @@ Then run the install script:
 ./install.sh
 ```
 
+If needed run and then rerun install script:
+```bash
+export PATH="$HOME/.local/bin:$PATH"
+```
+
+
 ## Troubleshooting
 
 If having issues installing Python versions with pyenv wth Brew's gcc compiler, then install the
