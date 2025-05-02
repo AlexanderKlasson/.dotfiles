@@ -12,6 +12,8 @@ usermod -aG sudo alex
 su - alex
 ```
 
+Set the user as default by editing the /etc/wsl.conf file
+
 If `git` is needed:
 
 ```bash
@@ -37,12 +39,6 @@ Then run the install script:
 ```bash
 ./install.sh
 ```
-
-## Useful branches
-
-None yet, but add more if you want to experiment with different configurations or more lightweight
-installations.
-
 
 ## Troubleshooting
 
