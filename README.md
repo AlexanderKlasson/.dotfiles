@@ -40,7 +40,7 @@ Then run the install script:
 ./install.sh
 ```
 
-If needed run and then rerun install script:
+If needed run the following and then rerun install script:
 ```bash
 export PATH="$HOME/.local/bin:$PATH"
 ```
