@@ -2,6 +2,8 @@
 
 ## Install
 
+# TO BE EDITED WITH PRIVATE SETTINGS ETC
+
 If starting in root, create a user:
 
 ```bash
