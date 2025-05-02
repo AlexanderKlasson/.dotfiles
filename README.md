@@ -2,16 +2,14 @@
 
 ## Install
 
-# TO BE EDITED WITH PRIVATE SETTINGS ETC
-
 If starting in root, create a user:
 
 ```bash
 apt-get update
 apt-get install sudo -y
-adduser --gecos "" mitch
-usermod -aG sudo mitch
-su - mitch
+adduser --gecos "" alex
+usermod -aG sudo alex
+su - alex
 ```
 
 If `git` is needed:
@@ -24,7 +22,7 @@ sudo apt-get install git -y
 Then clone:
 
 ```bash
-git clone https://github.com/mitches-got-glitches/dotfiles.git
+git clone https://github.com/AlexanderKlasson/dotfiles.git
 cd dotfiles
 ```
 
