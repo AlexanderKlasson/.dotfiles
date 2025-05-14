@@ -13,6 +13,7 @@ brew install \
         git \
         stow \
         pyenv \
+        fzf \
         pipx \
         node \
         yarn \
