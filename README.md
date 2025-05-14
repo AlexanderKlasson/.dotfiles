@@ -24,7 +24,7 @@ sudo apt-get install git -y
 Then clone:
 
 ```bash
-git clone https://github.com/AlexanderKlasson/dotfiles.git
+git clone https://github.com/AlexanderKlasson/.dotfiles.git
 cd dotfiles
 ```
 
