@@ -25,7 +25,7 @@ Then clone:
 
 ```bash
 git clone https://github.com/AlexanderKlasson/.dotfiles.git
-cd dotfiles
+cd .dotfiles
 ```
 
 If needed, add executable privileges to the file:
